@@ -1,0 +1,100 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+main{
+  height: 100vh;
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  margin: 10% auto;
+  width: 20%;
+  height: 40%;
+  /* background-color: aqua; */
+}
+
+.box1{
+  background-color: aliceblue;
+  grid-area: 1/1/2/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: ; */
+}
+
+.box2{
+  background-color: aliceblue;
+  grid-area: 1/2/2/3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3{
+  background-color: aliceblue;
+  grid-area: 1/3/2/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box4{
+  background-color: aliceblue;
+  grid-area: 2/1/3/2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box5{
+  background-color: aliceblue;
+  grid-area: 2/2/3/3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box6{
+  background-color: aliceblue;
+  grid-area: 2/3/3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box7{
+  background-color: aliceblue;
+  grid-area: 3/1/4/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box8{
+  background-color: aliceblue;
+  grid-area: 3/2/4/3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box9{
+  background-color: aliceblue;
+  grid-area: 3/3/4/4; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
